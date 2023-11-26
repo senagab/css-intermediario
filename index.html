@@ -6,15 +6,18 @@
     <title>Especificidade</title>
 </head>
 <style>
+    /* o, o, 1 */
     button {
         background-color: blue;
     }
 
+    /* 0, 1, 0 */
     .btn-sucesso {
         background-color: green;
     }
 </style>
 <body>
+    <!-- 1, 0, 0 -->
     <button class="btn-sucesso" style="background-color: red;">enviar mensagem</button>
 </body>
 </html>
